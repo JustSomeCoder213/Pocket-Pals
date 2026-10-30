@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "basic_food"
+display_name = "Basic Food"
+category = "Food"
+price = 10
+description = "Plain kibble. Filling, cheap and always welcome."
+usage = "Consumable"
+hunger_restore = 30.0
+happiness_gain = 3.0
+bond_gain = 1.0

@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="CreatureSpecies" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/creature/creature_species.gd" id="1_species"]
+
+[resource]
+script = ExtResource("1_species")
+species_id = &"mochi"
+display_name = "Mochi"
+description = "A round, fluffy little companion with big curious eyes. It hops happily wherever you go."
+rarity = "Common"
+habitat = "Home"
+body_color = Color(1, 0.84, 0.88, 1)
+accent_color = Color(1, 0.62, 0.72, 1)
+body_scale = 1.0
+max_hunger = 100.0
+max_happiness = 100.0
+max_energy = 100.0
+move_speed = 1.0

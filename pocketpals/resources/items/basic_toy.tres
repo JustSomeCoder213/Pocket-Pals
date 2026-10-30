@@ -1,0 +1,17 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "basic_toy"
+display_name = "Squeaky Ball"
+category = "Toy"
+price = 0
+description = "A bouncy red ball with a satisfying squeak."
+usage = "Reusable"
+happiness_gain = 12.0
+bond_gain = 3.0
+energy_cost = 15.0
+color = Color(0.95, 0.35, 0.4, 1)
+model_scale = 1.0

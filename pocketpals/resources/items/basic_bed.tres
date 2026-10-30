@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "basic_bed"
+display_name = "Basic Bed"
+category = "Sleep"
+price = 0
+description = "A simple cushion bed. Comfortable enough for a good rest."
+usage = "Permanent"
+energy_per_tick = 5.0
+color = Color(0.6, 0.75, 0.95, 1)

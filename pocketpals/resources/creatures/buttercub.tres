@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CreatureSpecies" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/creature/creature_species.gd" id="1_species"]
+
+[resource]
+script = ExtResource("1_species")
+species_id = &"buttercub"
+display_name = "Buttercub"
+description = "A sunny yellow meadow creature with long floppy ears. It cannot resist bouncing around whenever the grass is warm."
+rarity = "Uncommon"
+habitat = "Meadow"
+collection_order = 2
+body_color = Color(1, 0.88, 0.38, 1)
+accent_color = Color(1, 0.6, 0.25, 1)
+body_scale = 1.0
+model_style = "Longear"
+move_speed = 1.2
+personality = "Playful"
+wander_radius = 3.0
+photo_modifier = 1.0
+spawn_chance = 0.8
+stay_time_min = 40.0
+stay_time_max = 70.0
+discovery_bonus = 35

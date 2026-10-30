@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "improved_bed"
+display_name = "Cloud Bed"
+category = "Sleep"
+price = 80
+description = "Soft as a cloud. Your companion recovers energy much faster."
+usage = "Permanent"
+energy_per_tick = 8.0
+color = Color(0.6, 0.88, 0.75, 1)

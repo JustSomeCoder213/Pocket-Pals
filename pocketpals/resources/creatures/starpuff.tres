@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CreatureSpecies" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/creature/creature_species.gd" id="1_species"]
+
+[resource]
+script = ExtResource("1_species")
+species_id = &"starpuff"
+display_name = "Starpuff"
+description = "A rare, shimmering puffball with a glowing star crest. It lives among the high rocks and slips away at the slightest fuss."
+rarity = "Rare"
+habitat = "Rocks"
+collection_order = 3
+body_color = Color(0.62, 0.56, 0.95, 1)
+accent_color = Color(1, 0.9, 0.4, 1)
+body_scale = 0.9
+model_style = "Crest"
+move_speed = 1.6
+personality = "Shy"
+wander_radius = 1.8
+photo_modifier = 1.1
+spawn_chance = 0.3
+stay_time_min = 30.0
+stay_time_max = 45.0
+discovery_bonus = 100

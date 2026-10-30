@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "energy_snack"
+display_name = "Energy Berry"
+category = "Food"
+price = 15
+description = "A sweet berry that perks your companion right up. A quick pick-me-up when there's no time for a nap."
+usage = "Consumable"
+hunger_restore = 10.0
+energy_restore = 25.0
+happiness_gain = 2.0

@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "premium_food"
+display_name = "Tasty Treat"
+category = "Food"
+price = 25
+description = "A fancy, extra nutritious snack. It makes tails wag."
+usage = "Consumable"
+hunger_restore = 55.0
+happiness_gain = 8.0
+bond_gain = 2.0

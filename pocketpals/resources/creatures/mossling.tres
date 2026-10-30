@@ -1,0 +1,24 @@
+[gd_resource type="Resource" script_class="CreatureSpecies" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/creature/creature_species.gd" id="1_species"]
+
+[resource]
+script = ExtResource("1_species")
+species_id = &"mossling"
+display_name = "Mossling"
+description = "A cream-colored forest dweller with a tiny leaf sprouting from its head. It tilts and turns to look at anything new, and loves to nap near bushes."
+rarity = "Common"
+habitat = "Forest"
+collection_order = 1
+body_color = Color(0.96, 0.9, 0.72, 1)
+accent_color = Color(0.35, 0.72, 0.4, 1)
+body_scale = 1.0
+model_style = "Sprout"
+move_speed = 0.9
+personality = "Curious"
+wander_radius = 2.5
+photo_modifier = 1.0
+spawn_chance = 1.0
+stay_time_min = 50.0
+stay_time_max = 80.0
+discovery_bonus = 20

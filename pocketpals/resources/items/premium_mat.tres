@@ -1,0 +1,15 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "premium_mat"
+display_name = "Premium Dream Mat"
+category = "Sleep"
+price = 200
+description = "A luxurious golden mat. The fastest recovery, and sleeping on it is a joy."
+usage = "Permanent"
+energy_per_tick = 10.0
+happiness_per_tick = 0.5
+color = Color(0.95, 0.8, 0.45, 1)

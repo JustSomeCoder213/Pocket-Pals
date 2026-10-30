@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "cozy_lamp"
+display_name = "Cozy Lamp"
+category = "Decoration"
+price = 50
+description = "A warm floor lamp that fills the room with a gentle glow."
+usage = "Permanent"
+color = Color(1.0, 0.85, 0.5, 1)
+accent_color = Color(0.4, 0.3, 0.25, 1)
+visual = "lamp"
+decor_slot = "lamp"

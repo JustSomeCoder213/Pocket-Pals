@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "fern_plant"
+display_name = "Potted Fern"
+category = "Decoration"
+price = 30
+description = "A leafy fern in a terracotta pot. Brings a little forest indoors."
+usage = "Permanent"
+color = Color(0.35, 0.7, 0.4, 1)
+accent_color = Color(0.8, 0.45, 0.3, 1)
+visual = "plant"
+decor_slot = "plant"

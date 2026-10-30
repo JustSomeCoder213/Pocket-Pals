@@ -1,0 +1,16 @@
+[gd_resource type="Resource" script_class="ItemData" load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://scripts/items/item_data.gd" id="1_item"]
+
+[resource]
+script = ExtResource("1_item")
+item_id = "sunny_painting"
+display_name = "Sunny Painting"
+category = "Decoration"
+price = 35
+description = "A cheerful painting of a sunny sky for the back wall."
+usage = "Permanent"
+color = Color(0.6, 0.85, 0.95, 1)
+accent_color = Color(0.55, 0.38, 0.27, 1)
+visual = "painting"
+decor_slot = "wall"
